@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE quiz_info[
+	<!ELEMENT quiz_info (quiz*)>
+	<!ELEMENT quiz (question,choice,answer)>
+	<!ELEMENT choice (c+)>
+	<!ELEMENT question (#PCDATA)>
+	<!ELEMENT answer (#PCDATA)>
+	<!ELEMENT c (#PCDATA)>
+]>
+<quiz_info>
+	<quiz>
+	    <question>4+4</question>
+		<choice>
+			<c>asda</c>
+			<c>asd</c>
+			<c>8</c>
+			<c>asd</c>
+		</choice>
+
+		<answer>8</answer>
+
+	</quiz>
+	</quiz_info>
