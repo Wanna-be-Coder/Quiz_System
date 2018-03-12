@@ -28,9 +28,8 @@ if (isset($_POST['submit'])) {
 		if($_POST[$i]==$key){$point++;}		
 	}
 }
-echo $point;
-$_SESSION['score']=$point;
-header('location:score.php');
+echo "Score:".$point;
+
 }
 $n = 1;
 
@@ -44,7 +43,7 @@ foreach ($dom->quiz as $s) {
 	$n++;
 	
 		# code...
-    foreach ($dom->quiz->choice->c as $a) {
+    foreach ($s->choice->c as $a) {
 		# code...
 			echo "<input type='radio' name=$hw value=$a>"."$a"."<br><br>";
 		
@@ -59,5 +58,6 @@ foreach ($dom->quiz as $s) {
 echo "<input type='submit' name='submit'>";
 
 echo "</form>";
+echo "<a href='student.php'><button>Back</button></a>";
 
  ?>

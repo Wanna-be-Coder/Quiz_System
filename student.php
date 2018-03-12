@@ -11,6 +11,7 @@ session_start();
 	
 	$uname = $_SESSION['uname'];
 	$pass = $_SESSION['pass'];
+	echo $uname;
 
 
 

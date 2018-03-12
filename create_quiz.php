@@ -121,8 +121,10 @@ fwrite($myfile, $txt);
 		<input type="submit" name="submit"><br><br>
 		
 	</form>
+	<a href='teacher.php'><button>Back</button></a>
     <form action="logout.php" method="GET">
 	<button type='submit' name='submit'>Logout</button>
     </form>
+
 </body>
 </html>

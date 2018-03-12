@@ -113,5 +113,6 @@
 	</form>
 
 	<a href="registration.php">Register Here!</a>
+	<span><?php echo $error_empty ?></span>
 </body>
 </html>

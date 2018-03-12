@@ -15,9 +15,9 @@
 	    </question>
 		<choice>
 			<c>4</c>
-			<c>5</c>
+			<c>2</c>
 			<c>Man Not Hot</c>
-			<c>3</c>
+			<c>1</c>
 		</choice>
 
 		<answer>4</answer>
@@ -26,30 +26,30 @@
 
 <quiz>
 <question>
-	2+2 = ?
+	2+1 = ?
 </question>
 <choice>
-	<c>4</c>
+	<c>7</c>
 	<c>5</c>
 	<c>Man Not Hot</c>
-	<c>3</c>
+	<c>8</c>
 </choice>
 
-<answer>Man Not Hot</answer>
+<answer>3</answer>
 
 </quiz>
 <quiz>
 <question>
-	2+2 = ?
+	2+3 = ?
 </question>
 <choice>
-	<c>4</c>
+	<c>20</c>
 	<c>5</c>
 	<c>Man Not Hot</c>
-	<c>3</c>
+	<c>-1</c>
 </choice>
 
-<answer>4</answer>
+<answer>5</answer>
 
 </quiz>
 </quiz_info>

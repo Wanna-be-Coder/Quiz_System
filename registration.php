@@ -2,6 +2,7 @@
 
 $error_empty = '';
 $reg_info = array();
+$done = '';
 
 $user_check = false;
 
@@ -90,6 +91,7 @@ if (isset($_POST['submit'])) {
 		fwrite($myfile, $pass.PHP_EOL);
 		fclose($myfile);
 	    }
+		$done='You have registered successfully';
 
 	
 
@@ -128,9 +130,11 @@ if (isset($_POST['submit'])) {
 
 	<span><?php 
 
-		echo $error_empty;
+		echo $error_empty."<br>";
+		echo $done."<br>";
 	 	  ?>
 	 	  	
 	</span>
+	<a href='index.php'><button>Back</button></a>
 </body>
 </html>
